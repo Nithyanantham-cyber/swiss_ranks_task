@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SwissRanks</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="engine.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <script>
+    $(document).ready(function(){
+      dashboard();     
+});
+  </script>
+</head>
+
+<link rel="stylesheet" href="css/styles.css">
+<body>
+
+   <nav class="navbar navbar-inverse">
+      <a class="navbar-brand active" href="index.html">SwissRanks</a>
+      <ul class="nav navbar-nav ">
+        <li class="nav-item"><a class="nav-link" href="parts.html">Part Status</a></li>
+        <li class="nav-item"><a class="nav-link" href="engineer.html">Creator Status</a></li>       
+        <li class="nav-item"><a class="nav-link" href="approver.html">Approver Status</a></li>   
+        <li class="nav-item"><a class="nav-link" href="category.html">Category</a></li>    
+        </ul>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3">  
+      <div class="tile">
+        <span id="parts_count"></span><br>Parts <br>
+        <a class="btn btn-danger" href='parts.html'>See Chart</a>  
+      </div>  
+    </div>
+    <div class="col-sm-3">  
+      <div class="tile">
+        <span id="creator_count"></span><br>Creators<br>
+        <a class="btn btn-danger" href='engineer.html'>See Chart</a>     
+      </div> 
+    </div>
+    <div class="col-sm-3">  
+      <div class="tile">
+        <span id="approver_count"></span><br>Approvers<br>
+        <a class="btn btn-danger" href='approver.html'>See Chart</a>    
+      </div> 
+    </div>
+    
+    <div class="col-sm-3">  
+      <div class="tile">
+        <span id="category_count"></span><br>Category<br>
+        <a class="btn btn-danger"  href='category.html'>See Chart</a>    
+      </div> 
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<div><center><h1> <strong></h1></strong></center><</div>

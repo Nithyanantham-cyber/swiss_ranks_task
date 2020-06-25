@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SwissRanks</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="engine.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <script>
+    $(document).ready(function(){
+      parts();     
+});
+  </script>
+</head>
+
+<link rel="stylesheet" href="css/styles.css">
+<body>
+
+   <nav class="navbar navbar-inverse">
+      <a class="navbar-brand" href="index.html">SwissRanks</a>
+      <ul class="nav navbar-nav ">
+        <li class="nav-item active"><a class="nav-link" href="parts.html">Part Status</a></li>
+        <li class="nav-item"><a class="nav-link" href="engineer.html">Creator Status</a></li>       
+        <li class="nav-item"><a class="nav-link" href="approver.html">Approver Status</a></li>      
+        <li class="nav-item"><a class="nav-link" href="category.html">Category</a></li> 
+        </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+      <div class='col-12 header'>
+          <div class='row'>
+            <div class='col-sm-6'>
+              <h1>Parts</h1>
+              <div id='table'></div>
+            </div>
+            <div id='chart' class='col-sm-6'>
+              <canvas id="partsChart" width="100" height="100"></canvas>
+            </div>
+          </div>
+      </div>
+  </div>

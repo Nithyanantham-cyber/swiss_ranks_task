@@ -1,0 +1,48 @@
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  table{
+    font-size: 20px;
+  }
+
+  .tile{
+
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: 1px solid black;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .header{
+    background-color: rgba(255,255,255,0.2);
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  body{ 
+    font-family: 'Poppins';
+  background: #acb6e5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  nav{
+
+    font-family: 'Poppins';
+  }
+
+  span{
+    font-size: 40px
+  }
+
+.btn{
+  width: 100%;
+}
+
+table{
+  background-color: rgba(0,0,0,0.05);
+  font-size: 20px;
+    border-radius: 15px;
+}
